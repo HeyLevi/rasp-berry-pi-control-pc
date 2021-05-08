@@ -5,7 +5,8 @@
 
 [![g8HQpQ.png](https://z3.ax1x.com/2021/05/08/g8HQpQ.png)](https://imgtu.com/i/g8HQpQ)
 
-
+好累，看我博客吧。
+http://heylevi.com/index.php/archives/300/
 
 #### 软件架构
 软件架构说明
