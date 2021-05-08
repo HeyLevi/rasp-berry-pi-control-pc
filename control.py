@@ -8,11 +8,11 @@ import struct
 import winrm # 远程控制windows客户端
 import os # os库：调用系统命令
 
-auth = '3bac28c1fcdf' # 设备Secret Key
-mac = '00D861D913A0' # 电脑有线网卡的MAC地址
-ip = '192.168.1.2' #电脑的IP地址
-BROADCAST = "192.168.1.255" # 广播网段，前三段和你电脑的内网ip一样，一般是192.168.1.255
-user = ('levi.yang.1999@qq.com', 'Yzy19990828') # 远程关机需要使用的windows账户和密码
+auth = 'Secret Key' # 设备Secret Key
+mac = 'xxxxxxxxxxx' # 电脑有线网卡的MAC地址
+ip = 'a.b.c.d' #电脑的IP地址
+BROADCAST = "a.b.c.d" # 广播网段，前三段和你电脑的内网ip一样，一般是192.168.1.255
+user = ('username', 'password') # 远程关机需要使用的windows账户和密码
 data = ''.join(['FFFFFFFFFFFF', mac * 20])  # 构造原始数据格式
 send_data = b''
 # 把原始数据转换为16进制字节数组，

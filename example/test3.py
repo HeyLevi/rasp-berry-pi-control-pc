@@ -6,7 +6,7 @@ from Blinker.BlinkerConfig import *
 from Blinker.BlinkerDebug import *
 import os
 
-auth = '3bac28c1fcdf'
+auth = 'Secret Key'
 
 BLINKER_DEBUG.debugAll()
 

@@ -1,7 +1,11 @@
 # RaspBerryPi-Control-PC
 
 #### 介绍
-基于点灯Blinker平台的远程控制Windows电脑开关
+基于点灯Blinker平台的远程控制Windows电脑开关。
+
+[![g8HQpQ.png](https://z3.ax1x.com/2021/05/08/g8HQpQ.png)](https://imgtu.com/i/g8HQpQ)
+
+
 
 #### 软件架构
 软件架构说明
@@ -9,15 +13,13 @@
 
 #### 安装教程
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  Linux设备安装Python、Blinker-py库和pywinrm库。
+2.  受控的Windows设备打开winrm服务。
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+1.  仅支持Linux。
+2.  远程控制
 
 #### 参与贡献
 
